@@ -207,7 +207,7 @@ class CarRentalSystem{
 
                     if (confirm.equalsIgnoreCase("Y")){
                         addRental(selectedCar, newCustomer, days);
-                        System.out.println("\nCar rented Successfully.");
+                        System.out.println("\nCar rented Successfully !!\n\n");
                     }else {
                         System.out.println("\nRental canceled");
                     }
